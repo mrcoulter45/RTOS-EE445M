@@ -1,0 +1,9 @@
+.\adctestmain.o: ADCTestmain.c
+.\adctestmain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\adctestmain.o: ../inc/tm4c123gh6pm.h
+.\adctestmain.o: PLL.h
+.\adctestmain.o: ST7735.h
+.\adctestmain.o: UART.h
+.\adctestmain.o: ADC.h
+.\adctestmain.o: Timer3.h
+.\adctestmain.o: OS.h

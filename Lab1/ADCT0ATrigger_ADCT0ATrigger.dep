@@ -1,0 +1,37 @@
+Dependencies for Project 'ADCT0ATrigger', Target 'ADCT0ATrigger': (DO NOT MODIFY !)
+F (.\startup.s)(0x53E64E88)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 524"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADCTestmain.c)(0x5A750A26)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\adctestmain.o --omf_browse .\adctestmain.crf --depend .\adctestmain.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (PLL.h)(0x55462230)
+I (ST7735.h)(0x5A744E01)
+I (UART.h)(0x5A7255D2)
+I (ADC.h)(0x5A750990)
+I (Timer3.h)(0x5A750855)
+I (OS.h)(0x5A74D1F1)
+F (.\PLL.c)(0x554593AC)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (PLL.h)(0x55462230)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\ST7735.c)(0x5A74C75B)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (ST7735.h)(0x5A744E01)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\UART.c)(0x5A74C7C6)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (FIFO.h)(0x5A74F1CD)
+I (UART.h)(0x5A7255D2)
+I (ST7735.h)(0x5A744E01)
+F (.\ADC.c)(0x5A750990)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (ST7735.h)(0x5A744E01)
+I (ADC.h)(0x5A750990)
+F (.\Timer2.c)(0x5A74B62F)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\timer2.o --omf_browse .\timer2.crf --depend .\timer2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\OS.c)(0x5A750A66)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\os.o --omf_browse .\os.crf --depend .\os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
